@@ -3,12 +3,12 @@ $(document).ready(function() {
   logo()
   navBar()
   menuImg()
-
+  // eventImages()
 })
 
 function logo(){
   $('#navbar').html(function(){
-    return '<center><br><br><br><img src="images/Junebarlogo.png"></img></center>'
+    return '<center><br><br><br><a href="index.html"><img src="images/Junebarlogo.png"></img></a></center>'
   })
 }
 
@@ -22,4 +22,8 @@ function menuImg(){
   $('#menu').html(function(){
     return '<br><br><center><img src="images/junemenu1.png"></img><img src="images/junemenu2.png"></img></center>'
   })
+}
+
+function eventImg(){
+  
 }
