@@ -14,7 +14,7 @@ function logo(){
 
 function navBar(){
   $('#actualNavBar').html(function(){
-    return '<div class="ui fluid five item menu"><a class="item" href="menu.html">Menu</a><a class="item">Events</a><a class="item">Gallery</a><a class="item">Contact</a><a class="item">Hours</a></div>'
+    return '<div class="ui fluid five item menu"><a class="item" href="menu.html">Menu</a><a class="item" href="events.html">Events</a><a class="item">Gallery</a><a class="item">Contact</a><a class="item">Hours</a></div>'
   })
 }
 
