@@ -2,10 +2,24 @@
 <html>
   <head>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="instafeed.min.js"></script>
     <script src='index.js'></script>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+
+    <script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '7345015',
+        accessToken: '7345015.bef6401.88931f18e3a34515baf786432bfd90b1',
+        clientId: 'bef6401d60bf42778fb1d55644f535bf',
+        resolution: 'thumbnail',
+        limit: '5',
+        template: '<center><br><a href="{{link}}"><img src="{{image}}" width="{{width}}" height="{{height}}"></a></center>'
+    });
+    userFeed.run();
+    </script>
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -15,7 +29,10 @@
       <div id='navbar'></div>
       <div id='actualNavBar'></div>
       <br><br>
-      <div id='gallery'></div>
+      <div id='gallery'>
+        <div id="instafeed"></div>
+      </div>
+    </div>
   </div>
   </body>
 </html>

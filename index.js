@@ -5,7 +5,6 @@ $(document).ready(function() {
   menuImg()
   logoBlink()
   homePage()
-  instaGallery()
 
 })
 
@@ -44,14 +43,14 @@ function homePage(){
   })
 }
 
-function instaGallery(){
-  fetch('https://api.instagram.com/v1/media/search?lat=40.70252&lng=-73.91294&access_token=7345015.bef6401.88931f18e3a34515baf786432bfd90b1', {mode: 'no-cors'})
-  .then(function(response) {
-    console.log(response);
-  }).catch(function(error) {
-    console.log('Request failed', error)
-  });
-}
+// function instaGallery(){
+//   fetch('https://api.instagram.com/v1/tags/junebrooklyn/media/recent?access_token=7345015.bef6401.88931f18e3a34515baf786432bfd90b1', {mode: 'no-cors'})
+//   .then(function(response) {
+//     console.log(response);
+//   }).catch(function(error) {
+//     console.log('Request failed', error)
+//   });
+// }
 
 
 

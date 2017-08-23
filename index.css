@@ -8,5 +8,9 @@
 
 #background {
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
-  height: inherit;
+  height: auto;
+}
+
+#gallery{
+  
 }
