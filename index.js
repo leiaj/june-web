@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 function logo(){
   $('#logo').html(function(){
-    return '<center><br><a href="index.html"><img src="images/Junebarlogo.png" id="blinking_image"></img></a></center><br><br><center><marquee behavior="slide" direction="right" width="25%" scrollamount="10"><div id="nav"><h2><a href="gallery.html" id="gallery">GALLERY</a> <a href="contact.html" id="contact">CONTACT</a> <a href="events.html" id="events">EVENTS</a></h2></div><marquee></center>'
+    return '<center><br><a href="index.html"><img src="images/Junebarlogo.png" id="blinking_image"></img></a></center><br><center><div id="nav"><h2><marquee behavior="slide" direction="right" width="25%" scrollamount="10" hspace="20"><a href="gallery.html" id="gallery">GALLERY</a></marquee> <a href="contact.html" id="contact">CONTACT</a> <marquee behavior="slide" direction="left" width="25%" scrollamount="10" hspace="20"><a href="events.html" id="events">EVENTS</a></h2></div></center>'
   })
 }
 

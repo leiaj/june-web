@@ -34,6 +34,10 @@ body, html {
   border-width: thick;
 }
 
+#contact{
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+}
 
 
 
