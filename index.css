@@ -21,6 +21,18 @@ body, html {
   margin-right: auto ;
 }
 
+#instafeed{
+  width: 1000px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#image{
+  float: left;
+  border-style: solid;
+  border-color: transparent;
+  border-width: thick;
+}
 
 /*#container {
   background: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
@@ -31,20 +43,7 @@ body, html {
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
 }*/
 
-/*#image{
-  float: left;
-  border-style: solid;
-  border-color: transparent;
-  border-width: thick;
-}
 
 #background{
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
 }
-
-#instafeed{
-  width: 700px ;
-  margin-left: auto ;
-  margin-right: auto ;
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
-}*/

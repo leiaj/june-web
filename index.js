@@ -5,6 +5,7 @@ $(document).ready(function() {
   // menuImg()
   logoBlink()
   homePage()
+  instaFeed()
 
 })
 
@@ -23,6 +24,19 @@ function logoBlink(){
         img.style.visibility = 'hidden';
     }
 }, 500);
+}
+
+function instaFeed(){
+  var userFeed = new Instafeed({
+       get: 'user',
+       userId: '7345015',
+       accessToken: '7345015.bef6401.88931f18e3a34515baf786432bfd90b1',
+       clientId: 'bef6401d60bf42778fb1d55644f535bf',
+       resolution: 'thumbnail',
+       limit: '18',
+       template: '<div id="image"><center><br><a href="{{link}}"><img src="{{image}}" width="{{width}}" height="{{height}}"></a></center></div>'
+   });
+   userFeed.run();
 }
 
 // function navBar(){
