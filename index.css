@@ -1,12 +1,37 @@
-#navbar {
-  border-width: thick;
-  height: 250px;
-  border-style: solid;
-  border-color: black;
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
+body, html {
+    height: 100%;
 }
 
-#image{
+.container {
+    /* The image used */
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gifs{
+  width: 900px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+
+/*#container {
+  background: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
+}*/
+
+
+/*#container {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
+}*/
+
+/*#image{
   float: left;
   border-style: solid;
   border-color: transparent;
@@ -22,8 +47,4 @@
   margin-left: auto ;
   margin-right: auto ;
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
-}
-
-body{
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
-}
+}*/

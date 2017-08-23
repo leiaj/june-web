@@ -9,7 +9,7 @@ $(document).ready(function() {
 })
 
 function logo(){
-  $('#navbar').html(function(){
+  $('#logo').html(function(){
     return '<center><br><br><br><a href="index.html"><img src="images/Junebarlogo.png" id="blinking_image"></img></a></center>'
   })
 }
@@ -39,7 +39,7 @@ function logoBlink(){
 
 function homePage(){
   $('#welcome').html(function(){
-    return '<center><img src="https://media.giphy.com/media/wFKKVuqh8T9YI/giphy.gif"></img><img src="https://media.giphy.com/media/wFKKVuqh8T9YI/giphy.gif"></img><img src="https://media.giphy.com/media/wFKKVuqh8T9YI/giphy.gif"></img><img src="https://media.giphy.com/media/wFKKVuqh8T9YI/giphy.gif"></img><img src="https://media.giphy.com/media/wFKKVuqh8T9YI/giphy.gif"></img><img src="https://media.giphy.com/media/wFKKVuqh8T9YI/giphy.gif"></img><img src="https://media.giphy.com/media/wFKKVuqh8T9YI/giphy.gif"></img><br><br><img src="https://media.giphy.com/media/GqpTq4ooNy7EQ/giphy.gif"></img><img src="https://media.giphy.com/media/GqpTq4ooNy7EQ/giphy.gif"></img><img src="https://media.giphy.com/media/GqpTq4ooNy7EQ/giphy.gif"></img><img src="https://media.giphy.com/media/GqpTq4ooNy7EQ/giphy.gif"></img><img src="https://media.giphy.com/media/GqpTq4ooNy7EQ/giphy.gif"></img><img src="https://media.giphy.com/media/GqpTq4ooNy7EQ/giphy.gif"></img><img src="https://media.giphy.com/media/GqpTq4ooNy7EQ/giphy.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img><img src="http://www.sevenoaksart.co.uk/images/bud04.gif"></img></center>'
+    return '<br><br><div id="gifs"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><br><br><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><br><br><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><br><br><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"></div>'
   })
 }
 
