@@ -34,6 +34,20 @@ body, html {
   border-width: thick;
 }
 
+
+
+
+/*#nav{
+  border-style: solid;
+  border-color: green;
+  width: 900px;
+  height: 30px;
+}*/
+
+/*#text{
+  color: green;
+}
+
 /*#container {
   background: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
 }*/
@@ -44,6 +58,6 @@ body, html {
 }*/
 
 
-#background{
+/*#background{
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/44/56/9c4456e6ae88c4724c731c453fe30847.gif");
-}
+}*/
