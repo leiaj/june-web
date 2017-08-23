@@ -15,8 +15,8 @@
         accessToken: '7345015.bef6401.88931f18e3a34515baf786432bfd90b1',
         clientId: 'bef6401d60bf42778fb1d55644f535bf',
         resolution: 'thumbnail',
-        limit: '5',
-        template: '<center><br><a href="{{link}}"><img src="{{image}}" width="{{width}}" height="{{height}}"></a></center>'
+        limit: '30',
+        template: '<div id="image"><center><br><a href="{{link}}"><img src="{{image}}" width="{{width}}" height="{{height}}"></a></center></div>'
     });
     userFeed.run();
     </script>
@@ -24,15 +24,11 @@
     <title></title>
   </head>
   <body>
-  <div id='background'>
-    <div class='ui container'>
-      <div id='navbar'></div>
-      <div id='actualNavBar'></div>
-      <br><br>
-      <div id='gallery'>
+    <div id='background'>
+        <div id='navbar'></div>
+        <div id='actualNavBar'></div>
+        <br><br>
         <div id="instafeed"></div>
-      </div>
     </div>
-  </div>
   </body>
 </html>

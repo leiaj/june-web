@@ -1,8 +1,8 @@
 $(document).ready(function() {
   console.log("Hi I am loaded")
   logo()
-  navBar()
-  menuImg()
+  // navBar()
+  // menuImg()
   logoBlink()
   homePage()
 
@@ -25,17 +25,17 @@ function logoBlink(){
 }, 500);
 }
 
-function navBar(){
-  $('#actualNavBar').html(function(){
-    return '<div class="ui inverted fluid three item menu"><a class="item" href="events.html">Events</a><a class="item" href="gallery.html">Gallery</a><a class="item">Contact</a></div>'
-  })
-}
+// function navBar(){
+//   $('#actualNavBar').html(function(){
+//     return '<div class="ui inverted fluid three item menu"><a class="item" href="events.html">Events</a><a class="item" href="gallery.html">Gallery</a><a class="item">Contact</a></div>'
+//   })
+// }
 
-function menuImg(){
-  $('#menu').html(function(){
-    return '<br><br><center><img src="images/junemenu1.png"></img><img src="images/junemenu2.png"></img></center>'
-  })
-}
+// function menuImg(){
+//   $('#menu').html(function(){
+//     return '<br><br><center><img src="images/junemenu1.png"></img><img src="images/junemenu2.png"></img></center>'
+//   })
+// }
 
 function homePage(){
   $('#welcome').html(function(){
