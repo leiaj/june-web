@@ -6,12 +6,11 @@ $(document).ready(function() {
   logoBlink()
   homePage()
   instaFeed()
-
 })
 
 function logo(){
   $('#logo').html(function(){
-    return '<center><br><a href="index.html"><img src="images/Junebarlogo.png" id="blinking_image"></img></a></center><br><center><div id="nav"><h2><marquee behavior="slide" direction="right" width="25%" scrollamount="10" hspace="20"><a href="gallery.html" id="gallery">GALLERY</a></marquee> <a href="contact.html" id="contact">CONTACT</a> <marquee behavior="slide" direction="left" width="25%" scrollamount="10" hspace="20"><a href="events.html" id="events">EVENTS</a></h2></div></center>'
+    return '<center><br><a href="index.html"><img src="images/Junebarlogo.png" id="blinking_image"></img></a></center><br><center><div id="nav"><h2><a href="gallery.html" id="gallery">GALLERY</a> <a href="contact.html" id="contact">CONTACT</a><a href="events.html" id="events">EVENTS</a></h2></div></center>'
   })
 }
 
@@ -56,6 +55,7 @@ function homePage(){
     return '<br><div id="gifs"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><br><br><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><br><br><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><br><br><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"></div>'
   })
 }
+
 
 // function instaGallery(){
 //   fetch('https://api.instagram.com/v1/tags/junebrooklyn/media/recent?access_token=7345015.bef6401.88931f18e3a34515baf786432bfd90b1', {mode: 'no-cors'})
