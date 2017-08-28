@@ -28,8 +28,8 @@ function logoBlink(){
 function instaFeed(){
   var userFeed = new Instafeed({
        get: 'user',
-       userId: '7345015',
-       accessToken: '7345015.bef6401.88931f18e3a34515baf786432bfd90b1',
+       userId: '1632740798',
+       accessToken: '1632740798.1677ed0.3bb7d08f81af49a4b4753ebe14325e44',
        clientId: 'bef6401d60bf42778fb1d55644f535bf',
        resolution: 'thumbnail',
        limit: '18',
