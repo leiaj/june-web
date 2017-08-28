@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 function logo(){
   $('#logo').html(function(){
-    return '<center><br><a href="index.html"><img src="images/Junebarlogo.png" id="blinking_image"></img></a></center><br><center><div id="nav"><h2><a href="gallery.html" id="gallery">GALLERY</a> <a href="contact.html" id="contact">CONTACT</a><a href="events.html" id="events">EVENTS</a></h2></div></center>'
+    return '<center><br><a href="index.html"><img src="images/Junebarlogo.png" id="blinking_image"></img></a></center><br><br><center><div id="nav"><h2><a href="gallery.html" id="gallery">GALLERY</a> <a href="contact.html" id="contact">CONTACT</a><a href="events.html" id="events">EVENTS</a><a href="menu.html" id="menu">MENU</a></h2></div></center>'
   })
 }
 
@@ -33,7 +33,7 @@ function instaFeed(){
        clientId: 'bef6401d60bf42778fb1d55644f535bf',
        resolution: 'thumbnail',
        limit: '18',
-       template: '<div id="image"><center><br><a href="{{link}}"><img src="{{image}}" width="{{width}}" height="{{height}}"></a></center></div>'
+       template: '<div id="image"><center><br><a href="{{link}}"><img src="{{image}}" width="{{width}}" height="{{height}}"></a></center></div><div>'
    });
    userFeed.run();
 }
@@ -52,7 +52,7 @@ function instaFeed(){
 
 function homePage(){
   $('#welcome').html(function(){
-    return '<br><div id="gifs"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><br><br><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><br><br><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><br><br><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"></div>'
+    return '<br><div id="gifs"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><br><br><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><br><br><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><br><br><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><marquee id="sit">"a great place to sit"</marquee></div>'
   })
 }
 
