@@ -6,12 +6,11 @@ $(document).ready(function() {
   logoBlink()
   homePage()
   instaFeed()
-
 })
 
 function logo(){
   $('#logo').html(function(){
-    return '<center><br><a href="index.html"><img src="images/Junebarlogo.png" id="blinking_image"></img></a></center><br><br><center><marquee behavior="slide" direction="right" width="25%" scrollamount="10"><div id="nav"><h2><a href="gallery.html" id="gallery">GALLERY</a> <a href="contact.html" id="contact">CONTACT</a> <a href="events.html" id="events">EVENTS</a></h2></div><marquee></center>'
+    return '<center><br><a href="index.html"><img src="images/Junebarlogo.png" id="blinking_image"></img></a></center><br><br><center><div id="nav"><h2><a href="gallery.html" id="gallery">GALLERY</a> <a href="contact.html" id="contact">CONTACT</a><a href="events.html" id="events">EVENTS</a><a href="menu.html" id="menu">MENU</a></h2></div></center>'
   })
 }
 
@@ -29,12 +28,12 @@ function logoBlink(){
 function instaFeed(){
   var userFeed = new Instafeed({
        get: 'user',
-       userId: '7345015',
-       accessToken: '7345015.bef6401.88931f18e3a34515baf786432bfd90b1',
+       userId: '1632740798',
+       accessToken: '1632740798.1677ed0.3bb7d08f81af49a4b4753ebe14325e44',
        clientId: 'bef6401d60bf42778fb1d55644f535bf',
        resolution: 'thumbnail',
        limit: '18',
-       template: '<div id="image"><center><br><a href="{{link}}"><img src="{{image}}" width="{{width}}" height="{{height}}"></a></center></div>'
+       template: '<div id="image"><center><br><a href="{{link}}"><img src="{{image}}" width="{{width}}" height="{{height}}"></a></center></div><div>'
    });
    userFeed.run();
 }
@@ -53,9 +52,10 @@ function instaFeed(){
 
 function homePage(){
   $('#welcome').html(function(){
-    return '<br><div id="gifs"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><br><br><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><br><br><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><br><br><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"><img src="images/bud.gif"></div>'
+    return '<br><div id="gifs"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><br><br><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><br><br><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><br><br><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><marquee id="sit">"A great place to sit"</marquee></div>'
   })
 }
+
 
 // function instaGallery(){
 //   fetch('https://api.instagram.com/v1/tags/junebrooklyn/media/recent?access_token=7345015.bef6401.88931f18e3a34515baf786432bfd90b1', {mode: 'no-cors'})

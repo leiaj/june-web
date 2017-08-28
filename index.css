@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    /*cursor: url('http://i.imgur.com/waRyRaz.png'), default;*/
 }
 
 .container {
@@ -34,8 +35,87 @@ body, html {
   border-width: thick;
 }
 
+h3{
+  color: white;
+}
 
+h1{
+  color: white;
+}
 
+h2{
+  color: white;
+}
+
+#gallery{
+  border-style: solid;
+  border-color: transparent;
+  border-width: 10px;
+}
+
+#contact{
+  border-style: solid;
+  border-color: transparent;
+  border-width: 10px;
+}
+
+#events{
+  border-style: solid;
+  border-color: transparent;
+  border-width: 10px;
+}
+
+#menu{
+  border-style: solid;
+  border-color: transparent;
+  border-width: 10px;
+}
+
+#amps{
+  color: grey;
+  font-size: xx-small;
+}
+
+#leia{
+  margin-left: 30px;
+  color: grey;
+  font-size: xx-small;
+}
+
+#leialink{
+  color: grey;
+}
+
+#footer{
+  background-color: black;
+}
+
+#sit{
+  font-size: small;
+  color: grey;
+}
+
+#coffee{
+  float: left;
+  margin-left: 150px;
+  border-style: solid;
+  border-width: 20px;
+  border-color: transparent;
+}
+
+#drafts{
+  float: left;
+  border-style: solid;
+  border-width: 20px;
+  border-color: transparent;
+}
+
+#bottles{
+  float: left;
+  border-style: solid;
+  border-width: 20px;
+  border-color: transparent;
+}
 
 /*#nav{
   border-style: solid;
