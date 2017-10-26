@@ -52,9 +52,22 @@ function instaFeed(){
 
 function homePage(){
   $('#welcome').html(function(){
-    return '<br><div id="gifs"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><br><br><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><br><br><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><br><br><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><marquee id="sit">"A great place to sit"</marquee></div>'
+    return '<br><div id="gifs"><a href="images/rocks.jpg"><img src="images/cheers.gif"></a><img src="images/cheers.gif" id="newfriend" onClick="newFriend()"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><img src="images/cheers.gif"><br><br><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><img src="images/coffee.gif"><br><br><img src="images/skelly.gif" onClick="chalkyHello()"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><img src="images/skelly.gif"><br><br><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><img src="https://media1.giphy.com/media/qJmRItfKnC40M/giphy.gif"><marquee id="sit">"A great place to sit"</marquee></div>'
   })
 }
+
+function newFriend(){
+  var msg = new SpeechSynthesisUtterance(`Welcome to Junes, New Friend`);
+    msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Friend'; })[0];
+    speechSynthesis.speak(msg);
+}
+
+function chalkyHello(){
+  var msg = new SpeechSynthesisUtterance(`Chalk e`);
+    msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Friend'; })[0];
+    speechSynthesis.speak(msg);
+}
+
 
 
 // function instaGallery(){
